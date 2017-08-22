@@ -11,7 +11,7 @@
   "scripts": {
     "lint": "eslint . --fix",
     "precommit": "lint-staged && yarn run lint",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
     "punycode": "^2.1.0",
