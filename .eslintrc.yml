@@ -1,0 +1,17 @@
+plugins:
+  - prettier
+extends:
+  - airbnb-base
+  - prettier
+env:
+  es6: true
+  node: true
+parserOptions:
+  ecmaVersion: 6
+  sourceType: module
+rules:
+  prettier/prettier:
+    - error
+    - singleQuote: true
+      trailingComma: none
+  no-underscore-dangle: 0
