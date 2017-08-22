@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint . --fix",
-    "precommit": "lint-staged && yarn run lint"
+    "precommit": "lint-staged && yarn run lint",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "punycode": "^2.1.0",
