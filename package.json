@@ -5,6 +5,9 @@
   "main": "lib/index.js",
   "author": "Luke Herrington <lherrington100@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/infiniteluke/whois-puny"    
+  },
   "scripts": {
     "lint": "eslint . --fix",
     "precommit": "lint-staged && yarn run lint",

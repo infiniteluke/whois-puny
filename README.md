@@ -5,7 +5,7 @@ Docs match [json-whois](https://github.com/mikemaccana/whois-json) with support 
 Example:
 
 ```js
-  const whois = require('./index.js');
+  const whois = require('./lib/index.js');
 
   whois('🍕.ws', (err, result) => {
     console.log(JSON.stringify(result, null, 2))
