@@ -1,6 +1,6 @@
 {
   "name": "whois-puny",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Punnycode friendly whois",
   "main": "lib/index.js",
   "author": "Luke Herrington <lherrington100@gmail.com>",
