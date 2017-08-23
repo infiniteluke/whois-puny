@@ -1,17 +1,18 @@
 {
   "name": "whois-puny",
-  "version": "1.0.3",
+  "version": "0.0.0-development",
   "description": "Punnycode friendly whois",
   "main": "lib/index.js",
   "author": "Luke Herrington <lherrington100@gmail.com>",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/infiniteluke/whois-puny"    
+    "url": "https://github.com/infiniteluke/whois-puny"
   },
   "scripts": {
     "lint": "eslint . --fix",
     "precommit": "lint-staged && yarn run lint",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "commitmsg": "validate-commit-msg"
   },
   "dependencies": {
     "punycode": "^2.1.0",
@@ -24,10 +25,11 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-prettier": "2.1.1",
     "husky": "^0.14.3",
+    "last-release-git": "0.0.3",
     "lint-staged": "^4.0.2",
     "nodeunit": "^0.11.1",
     "prettier": "^1.5.3",
-    "semantic-release": "^6.3.6",
+    "semantic-release": "^7.0.2",
     "semantic-release-conventional-commits": "^1.1.0",
     "validate-commit-message": "^3.0.1",
     "validate-commit-msg": "^2.14.0"
